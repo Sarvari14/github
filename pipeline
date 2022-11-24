@@ -3,7 +3,11 @@ pipeline {
 
     stages {
         stage('Hello')
+        }
+        {
         stage('validate')
+        }
+        {
         stage('compile'){
             steps {
                 echo 'Hello World'
